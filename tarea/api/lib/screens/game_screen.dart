@@ -79,7 +79,7 @@ class _GameScreenState extends State<GameScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Rick & Morty Dex')),
+      appBar: AppBar(title: const Text('Rick & Morty ')),
       body: Column(
         children: [
           _buildControls(),
